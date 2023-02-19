@@ -165,4 +165,37 @@ body footer .input-group-text:hover {
 
 .small-banner {
   width: 49%;
+}
+
+.home-wrapper-2 {
+  background-color: #f5f5f7;
+}
+
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  padding: 15px;
+}
+.categories img {
+  height: 120px;
+  width: 120px;
+}
+
+.categories > div {
+  width: 24%;
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4),
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7),
+.categories > div:nth-child(8) {
+  border: 1px solid #232f3e;
+  display: flex;
+  justify-content: center;
+  margin: 7.5px 0;
+  border-radius: 3px;
 }/*# sourceMappingURL=App.css.map */

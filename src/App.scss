@@ -104,6 +104,7 @@ body {
         width: 100%;
         transform: translate3d(0px, 61px, 0px);
         padding: 0;
+        // margin: 61px 0 0 0;
         border: 1px solid $main_header_dark;
 
         .dropdown-item {
@@ -153,6 +154,7 @@ body {
 
 //? Home Page
 $home_main_orange: #bf4800;
+$home_second_white: #f5f5f7;
 
 .main-banner-content {
   top: 15%;
@@ -217,5 +219,45 @@ $home_main_orange: #bf4800;
 .small-banner {
   width: 49%;
 }
+
+//? homewrapper 2
+
+.home-wrapper-2 {
+  background-color: $home_second_white;
+}
+
+//? homewrapper2 end
+
+//? categories section
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+
+  img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.categories > div {
+  width: 24%;
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4),
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7),
+.categories > div:nth-child(8) {
+  border: 1px solid $main_contact_dark;
+  display: flex;
+  justify-content: center;
+  margin: 7.5px 0;
+  border-radius: 3px;
+}
+//? categories section end
 
 //? Home Part End Here
